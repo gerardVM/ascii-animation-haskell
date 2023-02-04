@@ -5,8 +5,8 @@ Brief minion animation: Trying ascii art and importing text file
 
 ## Try it with Docker
 
-Run the Docker image
+Clone this repository and build and run the Docker image
 
 ```bash
-docker run --rm -it gerardvm/ascii-animation-haskell
+docker build -t aah . && docker run --rm -it aah
 ```
